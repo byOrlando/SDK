@@ -8,7 +8,7 @@ commit_name = f"{timeData.tm_year}-{timeData.tm_mon}-{timeData.tm_mday}-{timeDat
 
 dataStr, filename = getStr()
 
-with open(f"./PythonTools/{filename}.md", 'a') as f:
+with open(f"./essay/{filename}.md", 'a') as f:
     f.write(dataStr)
 
 repo = git.Repo(path='.')
