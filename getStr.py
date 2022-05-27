@@ -231,5 +231,4 @@ def getStr():
             else:
                 tmp += next(after_bosh)
         tmp = tmp.replace("x", xx)
-        print(xx)
-        return tmp
+        return tmp, xx
