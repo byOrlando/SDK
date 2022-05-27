@@ -11,6 +11,7 @@ repo = git.Repo(path='.')
 repo.git.add('.')
 if repo.is_dirty():
     repo.git.commit(m=f'{fileName} 更新')
+
 remote = repo.remote()
 
 
