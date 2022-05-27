@@ -1,6 +1,6 @@
 import git
 import time
-from getStr import getStr
+from PythonTools.getStr import getStr
 
 timeData = time.localtime()
 commit_name = f"{timeData.tm_year}-{timeData.tm_mon}-{timeData.tm_mday}-{timeData.tm_hour}-{timeData.tm_min}" \
